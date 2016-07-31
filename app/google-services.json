@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139232940361",
+    "project_id": "freshmenuapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139232940361:android:3c84b700d4b47d15",
+        "android_client_info": {
+          "package_name": "com.example.chandan.freshmenuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139232940361-n8ujjss1089kl3vcidnra3dtv6nfvccd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chandan.freshmenuapp",
+            "certificate_hash": "DD7A0BAE5BA9DE43C52B6EE1E84F0A4A466F6567"
+          }
+        },
+        {
+          "client_id": "139232940361-rgnrogs4p9hn7a93m3mpqc5cve4cglhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtSKTLctzONRGvjcxec-JfouKm1lB0UUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

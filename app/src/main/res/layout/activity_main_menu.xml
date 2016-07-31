@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frontbg"
+    android:fitsSystemWindows="true">
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/profileImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/sign_in_button"
+        android:layout_alignLeft="@+id/textViewEmail"
+        android:layout_alignStart="@+id/textViewEmail"
+        android:layout_toRightOf="@+id/sign_in_button" />
+
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Login with Google+"
+        android:textColor="#fff"
+        android:background="@drawable/btn"
+        android:id="@+id/btngoogle"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/btnLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Login"
+        android:textColor="#2683c2"
+        android:background="@drawable/btn"
+        android:id="@+id/btnLogin"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_above="@+id/btnSignup" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Sign Up"
+        android:textColor="#2683c2"
+        android:background="@drawable/btn"
+        android:id="@+id/btnSignup"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/sign_in_button"
+        android:layout_alignEnd="@+id/sign_in_button"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_above="@+id/textViewEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp" />
+
+
+</RelativeLayout>
